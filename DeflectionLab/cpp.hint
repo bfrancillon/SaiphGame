@@ -1,0 +1,2 @@
+#define DEFLECTIONLAB_API __declspec(dllexport)
+#define DEFLECTIONLAB_API __declspec(dllimport)

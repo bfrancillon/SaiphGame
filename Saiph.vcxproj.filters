@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="EntryState.cpp" />
+    <ClCompile Include="ExitState.cpp" />
+    <ClCompile Include="MenuState.cpp" />
+    <ClCompile Include="Model\BaseObject.cpp" />
+    <ClCompile Include="Model\Boss.cpp" />
+    <ClCompile Include="Model\Bullet.cpp" />
+    <ClCompile Include="Model\Deflector.cpp" />
+    <ClCompile Include="Model\Effect.cpp" />
+    <ClCompile Include="Model\Enemy.cpp" />
+    <ClCompile Include="Model\HUD.cpp" />
+    <ClCompile Include="Model\Menu.cpp" />
+    <ClCompile Include="Model\MovingObject.cpp" />
+    <ClCompile Include="Model\PowerUp.cpp" />
+    <ClCompile Include="Model\ProgressBar.cpp" />
+    <ClCompile Include="Model\Ship.cpp" />
+    <ClCompile Include="Model\SpawnPoint.cpp" />
+    <ClCompile Include="LevelState.cpp" />
+    <ClCompile Include="Model\StickyBomb.cpp" />
+    <ClCompile Include="RandomFloat.cpp" />
+    <ClCompile Include="SaiphApp.cpp" />
+    <ClCompile Include="ShopState.cpp" />
+    <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="View\Layer.cpp" />
+    <ClCompile Include="View\ViewManager.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="XML_Library\irrXML.cpp" />
+    <ClCompile Include="MotherShip.cpp" />
+    <ClCompile Include="BaseCommand.cpp" />
+    <ClCompile Include="VelocityCommand.cpp" />
+    <ClCompile Include="HeadingCommand.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractState.h" />
+    <ClInclude Include="EntryState.h" />
+    <ClInclude Include="ExitState.h" />
+    <ClInclude Include="Model\BaseObject.h" />
+    <ClInclude Include="Model\Boss.h" />
+    <ClInclude Include="Model\Bullet.h" />
+    <ClInclude Include="Model\Deflector.h" />
+    <ClInclude Include="Model\Effect.h" />
+    <ClInclude Include="Model\Enemy.h" />
+    <ClInclude Include="Model\HUD.h" />
+    <ClInclude Include="Model\IDeflectionStrategy.h" />
+    <ClInclude Include="Model\MovingObject.h" />
+    <ClInclude Include="Model\Observer.h" />
+    <ClInclude Include="Model\PowerUp.h" />
+    <ClInclude Include="Model\ProgressBar.h" />
+    <ClInclude Include="Model\Ship.h" />
+    <ClInclude Include="Model\SpawnPoint.h" />
+    <ClInclude Include="Model\StickyBomb.h" />
+    <ClInclude Include="ShopState.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Subject.h" />
+    <ClInclude Include="View\Layer.h" />
+    <ClInclude Include="View\ViewManager.h" />
+    <ClInclude Include="LevelState.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="XML_Library\CXMLReaderImpl.h" />
+    <ClInclude Include="XML_Library\fast_atof.h" />
+    <ClInclude Include="XML_Library\heapsort.h" />
+    <ClInclude Include="XML_Library\irrArray.h" />
+    <ClInclude Include="XML_Library\irrString.h" />
+    <ClInclude Include="XML_Library\irrTypes.h" />
+    <ClInclude Include="XML_Library\irrXML.h" />
+    <ClInclude Include="MotherShip.h" />
+    <ClInclude Include="BaseCommand.h" />
+    <ClInclude Include="VelocityCommand.h" />
+    <ClInclude Include="HeadingCommand.h" />
+    <ClInclude Include="RandomFloat.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Saiph.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="game.ico" />
+  </ItemGroup>
+</Project>
