@@ -8,7 +8,7 @@
 #define LEVELSTATE_H
 
 #include "AbstractState.h"
-#include "../saiph-november2019-dtomei13-master/Model/Deflector.h"
+#include "../SaiphGame/Model/Deflector.h"
 #include <vector>
 
 // Always forward declare classes whenever possible
